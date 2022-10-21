@@ -15,5 +15,5 @@ spec:
         app: myapp
     spec:
       containers:
-      - image: lerndevops/springboot-mongo-app:latest
+      - image: lerndevops/samplepyapp:v1
         name: springboot-mongo-app
