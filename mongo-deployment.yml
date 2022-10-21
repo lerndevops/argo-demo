@@ -16,7 +16,7 @@ spec:
         app: mongodb
     spec:
       containers:
-       - image: lerndevops/mongo
+       - image: mongo
          name: mongo
          volumeMounts:
            - name: pv
