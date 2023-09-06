@@ -11,17 +11,9 @@ spec:
       app: mongodb
   template:
     metadata:
-      creationTimestamp: null
       labels:
         app: mongodb
     spec:
       containers:
        - image: mongo
          name: mongo
-         volumeMounts:
-           - name: pv
-             mountPath: "/data/db"
-      volumes:
-       - name: pv
-         persistentVolumeClaim:
-            claimName: my-pvc1
